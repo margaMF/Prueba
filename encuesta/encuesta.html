@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encuesta</title>
+</head>
+<body>
+    <h1>Encuesta rápida</h1>
+    <form method="post" action="validar_formulario.php">
+        
+        <fieldset style="width: 100px">
+            <legend>DATOS PERSONALES</legend>
+            <label for="nombre">Nombre:</label><br>
+            <input type="text" id="nombre" name="nombre" value="" size="50"><br><br>
+
+            <label for="apellidos">Apellidos:</label><br>
+            <input type="text" id="apellidos" name="apellidos" value="" size="50"><br><br>
+
+            <label for="id">Identificador:</label><br>
+            <input type="number" id="id" name="id"><br><br>
+
+            <label for="genero">Genero: </label>
+            <input type="radio" name="genero" id="genero" value="Masculino">
+            <label for="genero">Masculino</label>
+            <input type="radio" name="genero" id="genero" value="Femenino">
+            <label for="genero">Femenino</label><br><br>
+
+            <label for="edad">Edad:</label><br>
+            <input type="number" name="edad" id="edad" min="1" max="99"><br><br>
+
+            <label for="observaciones">Observaciones:</label><br>
+            <textarea name="observaciones" id="observaciones" cols="70" rows="10"></textarea><br><br>
+
+            <label for="localidad">Localidad:</label>
+            <select name="localidad" id="localidad">
+                <option value=""></option>
+                <option value="Binissalem">Binissalem</option>
+                <option value="Alaró">Alaró</option>
+                <option value="Palma">Palma</option>
+                <option value="Sóller">Sóller</option>
+                <option value="Manacor">Manacor</option>
+            </select><br>
+        </fieldset>
+
+        <p>1. ¿Qué tal ha sido la calidad del desayuno?</p>
+        <input type="radio" name="calidad1" id="Exc" value="Excelente">
+        <label for="calidad1">Excelente</label><br>
+        <input type="radio" name="calidad1" id="Bue" value="Buena">
+        <label for="calidad1">Buena</label><br>
+        <input type="radio" name="calidad1" id="Reg" value="Regular">
+        <label for="calidad1">Regular</label><br>
+        <input type="radio" name="calidad1" id="Mal" value="Mala">
+        <label for="calidad1">Mala</label><br>
+
+        <p>2. ¿Qué tal ha sido la calidad de la comida?</p>
+        <input type="radio" name="calidad2" id="Exc" value="Excelente">
+        <label for="calidad2">Excelente</label><br>
+        <input type="radio" name="calidad2" id="Bue" value="Buena">
+        <label for="calidad2">Buena</label><br>
+        <input type="radio" name="calidad2" id="Reg" value="Regular">
+        <label for="calidad2">Regular</label><br>
+        <input type="radio" name="calidad2" id="Mal" value="Mala">
+        <label for="calidad2">Mala</label><br>
+
+        <p>3. ¿Qué tal ha sido la calidad de la cena?</p>
+        <input type="radio" name="calidad3" id="Exc" value="Excelente">
+        <label for="calidad3">Excelente</label><br>
+        <input type="radio" name="calidad3" id="Bue" value="Buena">
+        <label for="calidad3">Buena</label><br>
+        <input type="radio" name="calidad3" id="Reg" value="Regular">
+        <label for="calidad3">Regular</label><br>
+        <input type="radio" name="calidad3" id="Mal" value="Mala">
+        <label for="calidad3">Mala</label><br><br>
+
+        <input type="submit" value="Enviar"><br>
+
+    </form>
+</body>
+</html>
