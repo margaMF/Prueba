@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: blueviolet;
+}
+
+.contenedorForm{
+    width: 800px;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 280px;
+}
+
+.botonBuscar{
+    width: 80px;
+    height: 40px;
+    background-color: whitesmoke;
+    border: rgb(90, 0, 97) 2px solid;
+    border-radius: 9px;
+}
+
+.cajaBuscar{
+    width: 700px;
+    height: 35px;
+    background-color: whitesmoke;
+    border: rgb(90, 0, 97) 2px solid;
+    border-radius: 9px;
+}
+
+.titulo{
+    color: whitesmoke;
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: rgb(47, 0, 50)  0.05em 0.05em 
+}

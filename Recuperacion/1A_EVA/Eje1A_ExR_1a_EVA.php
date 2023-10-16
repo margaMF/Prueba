@@ -3,8 +3,6 @@
 ini_set('display_errors', 'On');
 ini_set('html_errors', 0);
 
-$palabra = "oso listo";
-
 function extraerLetrasUnicasMayuscula($palabra){
     //Devuelve la longitud de la cadena.
     $logitudPalabra = strlen($palabra);
@@ -29,4 +27,12 @@ function extraerLetrasUnicasMayuscula($palabra){
    
 }
 
-echo extraerLetrasUnicasMayuscula($palabra);
+// echo extraerLetrasUnicasMayuscula($palabra);
+
+function test_extraerLetrasUnicasMayuscula_1(){
+    $palabra = "oso listo";
+    $resultado = extraerLetrasUnicasMayuscula($palabra);
+    return $resultado=="OSLIT"; 
+}
+
+var_dump(test_extraerLetrasUnicasMayuscula_1());

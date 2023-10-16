@@ -67,39 +67,5 @@ function contieneLetrasPalabra($palabra,$frase) {
     return $resultado;
 }
 
-$letra = "a";
-
-// function contar_palabras_con_letra($frase, $letra)
-// {
-//     $resultado = 0;
-//     $palabras = explode(" ", $frase);
-//     foreach ($palabras as $palabra)
-//     {
-//         if(contieneLetra($palabra, $letra))
-//         {
-//             $resultado++;
-//         }
-//     }
-    
-//     return $resultado;
-// }
-
-function contar_palabras_con_letra($frase, $letra)
-{
-    $resultado = 0;
-    $palabras = explode(" ", $frase);
-    $longitud = count($palabras);
-
-    for($i = 0; $i < $longitud; $i++)
-    {
-        if(contieneLetra($palabras[$i], $letra))
-        {
-            $resultado++;
-        }
-    }
-
-    return $resultado;
-}
-
-// echo contieneLetrasPalabra($palabra, $frase);
+echo contieneLetrasPalabra($palabra, $frase);
 echo contar_palabras_con_letra($frase, $letra);

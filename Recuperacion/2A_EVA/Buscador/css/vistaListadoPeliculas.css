@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: blueviolet;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1{
+    text-align: center;
+    color: whitesmoke;
+    font-size: 50px;
+    text-shadow: rgb(47, 0, 50)  0.05em 0.05em 
+}
+
+.contenedor{
+    margin-top: 60px;
+}
+
+.contenedorTabla{
+    margin-top: 30px;
+}
+
+table, th {
+    border: 2px solid rgb(47, 0, 50);
+}
+
+td{
+    border: 2px solid rgb(47, 0, 50);
+    color: rgb(47, 0, 50);
+    text-align: center;
+    font-weight: 500;
+}
+  
+table {
+    border-collapse: collapse;
+    width: 1100px;
+    margin: auto;
+    width: 1100px;
+    margin-top: 20px;
+}
+  
+td {
+    padding: 5px;
+    width: 400px;
+    background-color: whitesmoke;
+}
+
+th{
+    background-color: rgb(90, 0, 97);
+    color: whitesmoke;
+    font-weight: bold;
+    padding: 5px;
+}
+
+tr{
+    background-color: white;
+}
+
+.director{
+    background-color: rgb(210, 170, 213);
+}

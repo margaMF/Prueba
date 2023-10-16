@@ -2,7 +2,7 @@
 ini_set('display_errors', 'On');
 ini_set('html_errors', 0);
 
-require("Eje1B_Ex_1a_EVA.php");
+require("Eje1B_ExR_1a_EVA.php");
 
 function test_se_lanza_excepcion()
 {
